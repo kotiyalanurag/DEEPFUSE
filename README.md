@@ -8,7 +8,7 @@ We are using certain layers of a pre-trained VGG-19 for feature extraction from 
 image. Our end goal is to reduce the loss between generated image and our content image as much as possible.
 
 Style Layers
-```html
+```python
 style_layer_names = [
     "block1_conv1",
     "block2_conv1",
@@ -18,16 +18,21 @@ style_layer_names = [
 ]
 ```
 Content Layers
-```html
+```python
 content_layer_name = "block5_conv2"
 ```
 ## Hyperparameters
 
-```html
+```python
+# hyperparameters
 VAR_WGT = 1e-6
 STYLE_WGT = 1e-6
 CONTENT_WGT = 2.5e-8
 STEPS = 2000
+
+# path to images
+content_image_path = 'add path to your content image'
+style_image_path = 'add path to your style image'
 ```
 ## Output
 
