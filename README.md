@@ -77,4 +77,10 @@ Now install the requirements for this project using
 ```html
 pip install -r requirements.txt
 ```
+## References
+
+* [Original Paper - Gatys et. al](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf)
+* [TensorFlow - Neural Style Transfer](https://www.tensorflow.org/tutorials/generative/style_transfer)
+
 Have fun playing around with the notebook.
+
